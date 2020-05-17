@@ -7,9 +7,7 @@
 }
 
 
-
 h1 {
-	
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 50px;
@@ -44,6 +42,7 @@ div.card {
 	margin: 5px;
 	position: relative; 
 	float: left;
+	display: inline-block;
 
 
 }
@@ -65,8 +64,12 @@ div.card {
 
 @media(min-width: 768px) and (max-width: 991px) {
 
+	.card[name="Sushi"] {
+		width: 91vw;
+	}
+
 	div.card {
-	width: 45%;
+		width: 45vw;
 	}
 
 }
